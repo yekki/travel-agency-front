@@ -51,6 +51,7 @@ deploy-to-oke-default:
         name: wait to delete deployment
         code: sleep 60
 
+
     - kubectl:
         name: create deplyoment
         server: $KUBERNETES_MASTER
